@@ -288,7 +288,7 @@ class App:
         self.player.draw()
         self.draw_bom()
         self.draw_treasure()
-        pyxel.bltm(0, 4, 0, 0, 0, 32, 32, 0)
+        pyxel.bltm(4, 4, 0, 0, 4, 240, 240, 0)
 
     def draw_gameover_scene(self):
         pyxel.text(85, 100, "GAMEOVER", 8)
